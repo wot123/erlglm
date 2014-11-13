@@ -5,4 +5,5 @@ deps
 *.plt
 erl_crash.dump
 ebin
+c_src/glm
 .rebar
