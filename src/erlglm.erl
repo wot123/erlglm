@@ -24,7 +24,7 @@ load_nif() ->
                 Path ->
                         Path
         end,
-        erlang:load_nif(filename:join(PrivDir,"erlglm",0)).
+        erlang:load_nif(filename:join(PrivDir,"erlglm"),0).
 
 -spec perspective(float(), float(), float(), float()) -> erlglm_matrix4().
 perspective(_Fovy, _Aspect, _Znear, _Zfar) ->
