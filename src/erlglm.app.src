@@ -1,0 +1,11 @@
+{application, erlglm,
+ [
+  {description, "Erlang NIF bindings for glm"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.

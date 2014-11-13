@@ -1,0 +1,8 @@
+deps
+*.so
+*.o
+*.beam
+*.plt
+erl_crash.dump
+ebin
+.rebar
